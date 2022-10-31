@@ -9,16 +9,16 @@ useEffect(() => {
     .then((res) => setMyData(res.data))
 
 },[]);
-return(
- myData.map((podt) => {
+return{
+ {myData.map((post) => {
     const{id,title,body}=post;
     return <div className='card' key={id}>
         <h2>{title}</h2>
         <p>{body}</p>
     </div>
- })
+ })}
 
-);   
+}    
 
 }
 export default Apps   
