@@ -3,9 +3,9 @@ import './App.css';
 import Home from './home';
 import Navigate from './navigate';
 import Footer from './footer';
-import Apps from './container'
+  import Apps from './container'
 import Navig from './navig';
-// import Product from './product';
+// import Datafetch from './product';
 import axios from 'axios';
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
        <Home/> 
        <Navigate/>
        {/* <Product/> */}
-       
-      <Apps/> 
+       {/* <Datafetch/> */}
+       <Apps/> 
      <Footer/>
      </div>
     </div>
